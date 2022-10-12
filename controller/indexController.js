@@ -4,7 +4,22 @@ const path = require("path");
 const indexController = {
     home: (req, res) => {
         res.render("index");
-    }
+    },
+    anillos: (req, res) => {
+        res.render("products/anillos");
+    },
+    cadenas: (req, res) => {
+        res.render("products/cadenas");
+    },
+    candongas: (req, res) => {
+        res.render("products/candongas");
+    },
+    manillas: (req, res) => {
+        res.render("products/manillas");
+    },
+    topitos: (req, res) => {
+        res.render("products/topitos");
+    },
 };
 
 module.exports = indexController;
