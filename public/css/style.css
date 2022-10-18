@@ -3,4 +3,116 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-size: 62.5%; */
 }
+
+/*
+COLORES
+*/
+
+:root {
+    --main-color: #122541;
+    /* --second-color: #ffcd52; */
+    --items-color:  #FFD700;
+  }
+
+/*
+HEADER
+*/
+
+.top-header{
+    display: flex;
+    justify-content: start;
+    width: 98.75vw;
+    height: 10vh;
+    padding: 1%;
+    /* padding-right: 2%; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    background-color: var(--main-color);
+}
+
+.navbar-brand a{
+    color: var(--items-color);
+}
+
+.logo-header{
+    /* display: flex; */
+    width: 50%;
+    height: auto;
+}
+
+.logo-header img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-header a img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-iconos-top-header{
+    margin-left: 30%;
+}
+
+.iconos-top-header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+.icono-header a img{
+    margin-left: 2%;
+    width: 85%;
+    height: 85%;
+}
+
+
+/*
+FOOTER
+*/
+
+.card{
+    margin-top: 2%;
+}
+
+.card-body{
+    display: flex;
+    /* float: right; */
+}
+
+/* .item-footer{
+
+} */
+
+.iconos-del-footer img{
+    width: 15%;
+    height: 15%;
+
+}
+
+.iconos-del-footer p{
+    display: inline;
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+  }
+
+  @media(max-width:992px){
+
+    .top-header{
+        width: 100vw;
+    }
+
+    .container-iconos-top-header{
+        visibility: hidden;
+    }
+
+
+  }
