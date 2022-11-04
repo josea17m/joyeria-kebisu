@@ -12,9 +12,11 @@ COLORES
 
 :root {
     /* --main-color:#ECE2C6; */
-    --main-color: #122541;
-    --second-color: #2e2f30;
-    --items-color:  #FFD700;
+    /* --main-color: #122541; */
+    --main-color: black;
+    --second-color: white;
+    /* --items-color:  #FFD700; */
+    --items-color:  #CBAB00;
   }
 
 /*
@@ -108,11 +110,14 @@ NAVBAR
 */
 
 .navbar navbar-expand-lg bg-light{
-    background-color: var(--main-color)!important;
+    background-color: var(--second-color)!important;
 }
 
 .navbar-nav a{
     color: var(--items-color)!important;
+    margin: 0 7px;
+    font-size: 25px;
+    font-family: 'ELEGANT', sans-serif;
 }
 
 
