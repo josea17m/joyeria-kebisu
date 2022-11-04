@@ -13,4 +13,7 @@ router.get("/candongas", indexController.candongas);
 router.get("/manillas", indexController.manillas);
 router.get("/topitos", indexController.topitos);
 
+router.get("/favoritos", indexController.favoritos);
+router.get("/carrito", indexController.carrito);
+
 module.exports = router;

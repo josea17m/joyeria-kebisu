@@ -20,6 +20,12 @@ const indexController = {
     topitos: (req, res) => {
         res.render("products/topitos");
     },
+    favoritos: (req, res) => {
+        res.render("favoritos");
+    },
+    carrito: (req, res) => {
+        res.render("carrito")
+    }
 };
 
 module.exports = indexController;
